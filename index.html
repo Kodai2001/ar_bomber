@@ -11,10 +11,10 @@
     <a-scene embedded arjs>
       <!-- マーカートラッキング設定 -->
       <!-- hiroマーカーに反応し、タグ内の3dモデルを表示 -->
-      <a-marker preset="hiro">
+      <a-marker type="pattern" url="/Users/hayashikdi/Downloads/pattern-matty.patt">
         <!-- 直方体呼び出し -->
-        <a-box position="0 0 0" scale="1 1 1" color="red"></a-box
-      ></a-marker>
+        <a-box position="0 0.5 0" wireframe="true"></a-box>  
+      </a-marker>
     </a-scene>
   </body>
 </html>
